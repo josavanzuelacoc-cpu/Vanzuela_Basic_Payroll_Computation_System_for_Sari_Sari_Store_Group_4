@@ -3,7 +3,7 @@
 def compute_payroll():
     employees = []
     num_employees = int(input("Enter number of employees: "))
-    
+
     for i in range(num_employees):
         print(f"\nEmployee {i+1}:")
         name = input("Enter employee name: ")
